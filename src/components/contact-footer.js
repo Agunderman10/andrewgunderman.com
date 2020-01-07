@@ -35,6 +35,7 @@ function ContactFooter()
                     <h3>Spotify Podcasts</h3>
                 </div>
             </div>
+            <footer>&copy; 2020 Andrew Gunderman | All Rights Reserved</footer>
         </div>
     )
 }

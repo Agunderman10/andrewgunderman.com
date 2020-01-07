@@ -24,3 +24,7 @@ button {
     -webkit-transition: all 0.3s;
     color: #1bc8e5;
 }
+
+footer {
+    font-weight: bolder;
+}

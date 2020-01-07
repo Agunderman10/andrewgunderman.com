@@ -1,12 +1,18 @@
 .container {
     position: relative;
-    text-align: center;
+    float: left;
     color: black;
     font-family: sans-serif;
     letter-spacing: 0px;
     text-decoration: none;
     line-height: 35px;
     font-size: 18px;
+}
+
+.img-container {
+    position: relative;
+    text-align: right;
+    float: right;
 }
 
 .top-left {
@@ -18,6 +24,10 @@
 
 .givingtalk {
     width: 100%;
-    margin-top: -3px;
+    height: auto;
     opacity: .7;
+}
+
+.clear-floats {
+    clear: both;
 }

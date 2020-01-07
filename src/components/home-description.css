@@ -7,6 +7,7 @@
     text-decoration: none;
     line-height: 35px;
     font-size: 18px;
+    width: 50%;
 }
 
 .img-container {
@@ -25,7 +26,7 @@
 .givingtalk {
     width: 100%;
     height: auto;
-    opacity: .7;
+    opacity: 1;
 }
 
 .clear-floats {

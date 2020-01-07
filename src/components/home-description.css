@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-weight: bold;
+}
+
+.givingtalk {
+    width: 100%;
+    margin-top: -3px;
+    opacity: .7;
+}

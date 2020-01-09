@@ -9,13 +9,13 @@ function App() {
   return (
     <div className="App">
       <header>
-        <Navbar></Navbar>
+        <Navbar/>
       </header>
 
       <img src="images/career_day_1254.jpg" className="App-logo" alt="Andrew Gunderman" />
-      <HomeDescription></HomeDescription>
-      <Testimonials></Testimonials>
-      <ContactFooter></ContactFooter>
+      <HomeDescription/>
+      <Testimonials/>
+      <ContactFooter/>
     </div>
   );
 }

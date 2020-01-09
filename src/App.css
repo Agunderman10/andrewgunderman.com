@@ -7,4 +7,6 @@
 .App-logo {
   height: 100vmin;
   pointer-events: none;
+  width: 100%;
+  opacity: 1;
 }

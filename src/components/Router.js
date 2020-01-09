@@ -22,7 +22,7 @@ const Router = () => (
             <Route path="/speaking" component={Speaking}>
                 <Speaking/>
             </Route>
-            <Route path="blog" component={Blog}>
+            <Route path="/blog" component={Blog}>
                 <Blog/>
             </Route>
         </Switch>

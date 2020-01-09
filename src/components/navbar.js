@@ -1,5 +1,6 @@
-import React from 'react'
-import './navbar.css'
+import React from 'react';
+import {Link, BrowserRouter} from 'react-router-dom';
+import './navbar.css';
 
 function Navbar()
 {
@@ -7,9 +8,21 @@ function Navbar()
      <div>
          <ul>
              <li><img className="name-logo" src="images/andrew-gunderman.jpg" alt="Andrew Gunderman"/></li>
-             <li><a href="#home">HOME</a></li>
-             <li><a href="#about">ABOUT</a></li>
-             <li><a href="#podcast">PODCAST</a></li>
+             <li>
+               <BrowserRouter>
+                 <Link to={{pathname:'/'}}>HOME</Link>
+               </BrowserRouter>
+             </li>
+             <li>
+               <BrowserRouter>
+                 <Link to={{pathname:'/about'}}>ABOUT</Link>
+               </BrowserRouter>
+             </li>
+             <li>
+               <BrowserRouter>
+                 <Link to={{pathname:'/podcast'}}>PODCAST</Link>
+               </BrowserRouter>
+             </li>
              <li><a href="#speaking">SPEAKING</a></li>
              <li><a href="#blog">BLOG</a></li>
              <li class="dropdown">

@@ -23,8 +23,16 @@ function Navbar()
                  <Link to={{pathname:'/podcast'}}>PODCAST</Link>
                </BrowserRouter>
              </li>
-             <li><a href="#speaking">SPEAKING</a></li>
-             <li><a href="#blog">BLOG</a></li>
+             <li>
+               <BrowserRouter>
+                 <Link to={{pathname:'/speaking'}}>SPEAKING</Link>
+               </BrowserRouter>
+             </li>
+             <li>
+               <BrowserRouter>
+                 <Link to={{pathname:'/blog'}}>BLOG</Link>
+               </BrowserRouter>
+             </li>
              <li class="dropdown">
                <a href="javascript:void(0)" class="dropbtn">MORE</a>
                <div class="dropdown-content">

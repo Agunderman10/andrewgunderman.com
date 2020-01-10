@@ -60,3 +60,9 @@ li.dropdown {
     margin-top: -10px;
     margin-bottom: -10px;
 }
+
+.component {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.7vmin;
+}

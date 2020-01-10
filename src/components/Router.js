@@ -7,26 +7,29 @@ import Podcast from './Podcast';
 import Speaking from './Speaking';
 import Blog from './Blog';
 
-const Router = () => (
-    <BrowserRouter>
+function Router()
+{
+    return (
+        <BrowserRouter>
         <Switch>
-            <Route path="/" component={App} exact>
+            <Route path='/' component={App} exact>
                 <App/>
             </Route>
-            <Route path="/about" component={About}>
+            <Route path='/about' component={About}>
                 <About/>
             </Route>
-            <Route path="/podcast" component={Podcast}>
+            <Route path='/podcast' component={Podcast}>
                 <Podcast/>
             </Route>
-            <Route path="/speaking" component={Speaking}>
+            <Route path='/speaking' component={Speaking}>
                 <Speaking/>
             </Route>
-            <Route path="/blog" component={Blog}>
+            <Route path='/blog' component={Blog}>
                 <Blog/>
             </Route>
         </Switch>
     </BrowserRouter>
-);
+    )
+}
 
 export default Router;

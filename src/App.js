@@ -12,7 +12,7 @@ function App() {
         <Navbar/>
       </header>
 
-      <img src="images/givingtalk.jpg" className="App-logo" alt="Andrew Gunderman" />
+      <img src="images/givingtalk.jpg" className="background" alt="Andrew Gunderman" />
       <HomeDescription/>
       <Testimonials/>
       <ContactFooter/>

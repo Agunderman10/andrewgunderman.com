@@ -1,10 +1,4 @@
-.App {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 1.7vmin;
-}
-
-.App-logo {
+.background {
   height: 100vmin;
   pointer-events: none;
   width: 100%;
